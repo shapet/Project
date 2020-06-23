@@ -121,3 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/shapet/book_shop/static	'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/home/shapet/book_shop/media'

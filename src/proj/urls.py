@@ -15,10 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from testapp.views import test
+from testapp.views import Test, CreateGenre, UpdateGenre, ListGenre, DeleteGenre
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', test),
+    path('test/<int:pk>', Test.as_view()),
+    path('create-genre/', CreateGenre.as_view()),
+    path('update-genre/<int:pk>', UpdateGenre.as_view()),
+    path('list-genre/', ListGenre.as_view()),
+    path('delete-genre/<int:pk>', DeleteGenre.as_view()),
+
+    # http://127.0.0.1:8000/test/6
    
 ]

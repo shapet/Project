@@ -15,6 +15,9 @@ class Genre(models.Model):
 
     def __str__(self):
         return self.name
+    
+    def my_method(self):
+        return 'abc'
 
 
 class Book(models.Model):

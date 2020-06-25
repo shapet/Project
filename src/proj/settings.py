@@ -25,7 +25,7 @@ SECRET_KEY = 'i1ny_br6o3&sk!sj97oymr*&1k=%5lgo@5xoe8fs9w9-hnkeyj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shapet.pythonanywhere.com']
 
 
 # Application definition

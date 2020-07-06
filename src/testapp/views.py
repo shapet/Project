@@ -34,7 +34,7 @@ class UpdateGenre(UpdateView):
  
 class ListGenre(ListView):
     model = Genre
-    temlate_name = 'testapp/genre_list.html'
+    temlate_name = 'testapp/list_genre.html'
     
     
   

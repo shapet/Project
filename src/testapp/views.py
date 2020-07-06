@@ -35,6 +35,7 @@ class UpdateGenre(UpdateView):
 class ListGenre(ListView):
     model = Genre
     temlate_name = 'testapp/list_genre.html'
+    success_url = "/list-genre/"
     
   
 class DeleteGenre(DeleteView):

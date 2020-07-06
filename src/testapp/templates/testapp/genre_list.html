@@ -16,9 +16,10 @@
                 <th>name</th>
                 <th>tools</th>
             </tr>
+            {% for obj in object_list %}
         </thead>
         <tbody>
-            {% for obj in object_list %}
+            
             <tr>
                 
                 <td>{{ obj.pk }}</td>
